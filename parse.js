@@ -18,6 +18,6 @@ function parse ()
 	for(var i = 0;i < coords.length;i++)
 	{
 		//console.log(coords);
-		$('#textarea_output').val($('#textarea_output').val()+'L.marker(['+coords[i]+']).addTo(map);'+'\n'); 
+		$('#textarea_output').val($('#textarea_output').val()+'L.marker(['+coords[i]+']).addTo(map).bindPopup(\'<a href="https://maps.google.com/maps?ll='+coords[i]+'">gMaps</a>\');'+'\n'); 
 	}
 }
