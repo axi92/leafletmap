@@ -5,20 +5,19 @@ function parse ()
 	for(var i = 0;i < lines.length;i++)
 	{
 		//code here using lines[i] which will give you each line
-		var p = new RegExp("([\d]{1,2})(\.)(\d+)(,)([\d]{1,2})(\.)(\d+)");
-		var m = p.exec(lines[i]);
-		console.log(lines[i]);
-		console.log('i:' + i + ' - ' + m);
-		if (m != null)
+		if(lines[i].indexOf('?ll=') !== -1)
 		{
-			coords.push(lines[i]);
-			console.log(lines[i]);
+			var lineArr = lines[i].split('?ll='); 
+			if(lineArr.length!==0)
+			{
+				var splitCords = lineArr[1].split(',');
+				coords.push(splitCords[0]+','+splitCords[1]);
+			}
 		}
 	}
-
 	for(var i = 0;i < coords.length;i++)
 	{
 		//console.log(coords);
-		$('#textarea_output').val($('#textarea_output').val()+coords[i]+'\n'); 
+		$('#textarea_output').val($('#textarea_output').val()+'L.marker(['+coords[i]+']).addTo(map);'+'\n'); 
 	}
 }
