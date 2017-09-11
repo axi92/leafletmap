@@ -23,6 +23,13 @@ L.polygon([
 ).addTo(map).bindPopup("NR01-FOXTROT-06");
 
 
+function onLocationFound(e) {
+    L.marker(e.latlng).addTo(map).bindPopup("You are here");
+}
+
+map.on('locationfound', onLocationFound);
+
+
 L.marker([48.08162,17.071564]).addTo(map).bindPopup('<a href="https://maps.google.com/maps?ll=48.08162,17.071564">gMaps</a>');
 L.marker([48.233334,16.193525]).addTo(map).bindPopup('<a href="https://maps.google.com/maps?ll=48.233334,16.193525">gMaps</a>');
 L.marker([48.168955,16.219458]).addTo(map).bindPopup('<a href="https://maps.google.com/maps?ll=48.168955,16.219458">gMaps</a>');
