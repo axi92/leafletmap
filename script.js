@@ -24,10 +24,20 @@ L.polygon([
 
 
 function onLocationFound(e) {
-    L.marker(e.latlng).addTo(map).bindPopup("You are here");
+    //L.marker(e.latlng).addTo(map).bindPopup("You are here");
 }
 
 map.on('locationfound', onLocationFound);
+
+
+var lc = L.control.locate({
+    position: 'topleft',
+	setView: 'false',
+	icon: 'fa fa-map-marker',
+    strings: {
+        title: "Show me where I am!"
+    }
+}).addTo(map);
 
 
 L.marker([48.08162,17.071564]).addTo(map).bindPopup('<a href="https://maps.google.com/maps?ll=48.08162,17.071564">gMaps</a>');
