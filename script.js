@@ -23,9 +23,9 @@ L.polygon([
 ).addTo(map).bindPopup("NR01-FOXTROT-06");
 
 
-L.marker([48.143696,16.612995]).addTo(map).bindPopup('<a href="https://maps.google.com/maps?ll=48.143696,16.612995">gMaps</a>');
-L.marker([48.168955,16.219458]).addTo(map).bindPopup('<a href="https://maps.google.com/maps?ll=48.168955,16.219458">gMaps</a>');
+L.marker([48.08162,17.071564]).addTo(map).bindPopup('<a href="https://maps.google.com/maps?ll=48.08162,17.071564">gMaps</a>');
 L.marker([48.233334,16.193525]).addTo(map).bindPopup('<a href="https://maps.google.com/maps?ll=48.233334,16.193525">gMaps</a>');
-L.marker([48.302866,16.564087]).addTo(map).bindPopup('<a href="https://maps.google.com/maps?ll=48.302866,16.564087">gMaps</a>');
-L.marker([48.148564,16.483594]).addTo(map).bindPopup('<a href="https://maps.google.com/maps?ll=48.148564,16.483594">gMaps</a>');
+L.marker([48.168955,16.219458]).addTo(map).bindPopup('<a href="https://maps.google.com/maps?ll=48.168955,16.219458">gMaps</a>');
+L.marker([48.572146,16.638992]).addTo(map).bindPopup('<a href="https://maps.google.com/maps?ll=48.572146,16.638992">gMaps</a>');
+L.marker([48.059752,16.458387]).addTo(map).bindPopup('<a href="https://maps.google.com/maps?ll=48.059752,16.458387">gMaps</a>');
 
