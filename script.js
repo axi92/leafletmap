@@ -40,7 +40,7 @@ var lc = L.control.locate({
 }).addTo(map);
 
 L.marker([48.233334,16.193525]).addTo(map).bindPopup('<a href="https://maps.google.com/maps?ll=48.233334,16.193525">gMaps</a>');
+L.marker([48.249306,16.918788]).addTo(map).bindPopup('<a href="https://maps.google.com/maps?ll=48.249306,16.918788">gMaps</a>');
 L.marker([48.154607,16.528368]).addTo(map).bindPopup('<a href="https://maps.google.com/maps?ll=48.154607,16.528368">gMaps</a>');
-L.marker([48.124019,16.58931]).addTo(map).bindPopup('<a href="https://maps.google.com/maps?ll=48.124019,16.58931">gMaps</a>');
 L.marker([48.04143,15.609444]).addTo(map).bindPopup('<a href="https://maps.google.com/maps?ll=48.04143,15.609444">gMaps</a>');
 L.marker([48.254604,16.265419]).addTo(map).bindPopup('<a href="https://maps.google.com/maps?ll=48.254604,16.265419">gMaps</a>');
