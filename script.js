@@ -43,4 +43,4 @@ L.marker([48.233334,16.193525]).addTo(map).bindPopup('<a href="https://maps.goog
 L.marker([47.994148,16.655737]).addTo(map).bindPopup('<a href="https://maps.google.com/maps?ll=47.994148,16.655737">gMaps</a>');
 L.marker([48.221427,16.513028]).addTo(map).bindPopup('<a href="https://maps.google.com/maps?ll=48.221427,16.513028">gMaps</a>');
 L.marker([48.194252,16.493095]).addTo(map).bindPopup('<a href="https://maps.google.com/maps?ll=48.194252,16.493095">gMaps</a>');
-L.marker([48.201336,16.519073]).addTo(map).bindPopup('<a href="https://maps.google.com/maps?ll=48.201336,16.519073">gMaps</a>');
+L.marker([48.169418,17.198947]).addTo(map).bindPopup('<a href="https://maps.google.com/maps?ll=48.169418,17.198947">gMaps</a>');
